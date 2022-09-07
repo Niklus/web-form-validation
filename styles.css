@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+}
+
+main {
+  padding: 1rem;
+}
+
+form {
+  padding: 14px;
+  border-radius: 10px;
+}
+
+form:invalid, input:invalid, textarea:invalid {
+  border: red 2px solid;
+}
+
+form:valid, input:valid, textarea:valid {
+  border: green 2px solid;
+}
+
+button {
+  background-color: green;
+  color: white;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
